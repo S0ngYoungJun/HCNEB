@@ -48,4 +48,14 @@ class ForExam {
 
 
 let forExam = new ForExam();
-console.dir(forExam);
+// console.dir(forExam);
+
+
+forExam.problem1 = forExam.problem1.map(item => item.toUpperCase());
+
+console.log(forExam.problem1);
+
+
+forExam.problem2 = forExam.problem2.filter(item => item.includes('이'));
+
+console.log(forExam.problem2);
