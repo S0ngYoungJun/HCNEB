@@ -48,4 +48,9 @@ class ForExam {
 
 
 let forExam = new ForExam();
-console.dir(forExam);
+
+
+forExam.problem1 = forExam.problem1.map(item => item.toUpperCase());
+
+
+console.log(forExam.problem1);
